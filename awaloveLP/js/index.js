@@ -7,8 +7,6 @@
 "use strict";
 
 $(function () {
-    // 書き換え
-    $("#magiccode").html("魔法" + getQuery().toString());
     // トグル用フラグ
     let menuOpenFlg = false;
     // トグル用フラグ
@@ -90,9 +88,3 @@ $(function () {
         }
     });
 });
-
-// クエリ取得
-function getQuery() {
-    const url = new URL(window.location.href);
-    return url.searchParams.get('code');
-}

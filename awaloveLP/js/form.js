@@ -14,6 +14,7 @@ $(function () {
     const policyheight = $("#policy").offset().top - 200;
     // データレイヤー初期化
     window.dataLayer = window.dataLayer || [];
+    $(".visual").hide();
 
     // ラジオボタン変更
     $('input[name="q01[]"]:radio').change(function () {

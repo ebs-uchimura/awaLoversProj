@@ -41,7 +41,7 @@ li a {
 }
 
 h2 {
-    font-size: 6.5vw;
+    font-size: 7vw;
 }
 
 img {
@@ -176,8 +176,8 @@ main .news-main-wrapper .news-entry-headline .news-flex-item {
 }
 
 main .news-main-wrapper .news-main-headline {
-    width: 75vw;
-    margin: 5vw auto;
+    width: 78vw;
+    margin: 5vw auto 10vw;
 }
 
 main .news-main-wrapper .news-main-headline>h2 {
@@ -197,11 +197,11 @@ main .news-main-wrapper .news-main-headline #bkimage1 {
 main .news-main-wrapper .news-main-headline #bkimage1 article {
     width: 35vw;
     margin-left: auto;
-    padding-top: 56vw;
+    padding-top: 60vw;
 }
 
 main .news-main-wrapper .news-main-headline #bkimage1 article p {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
 
 main .news-main-wrapper .news-sub-headline {
@@ -216,7 +216,7 @@ main .news-main-wrapper .news-sub-headline .news-flex-item {
     top: 58vw;
     left: 9vw;
     margin: 0 auto;
-    padding: 10vw 5vw 5vw;
+    padding: 10vw 2vw 5vw;
     border: solid 1px #c4c4ca;
 }
 
@@ -228,7 +228,7 @@ main .news-main-wrapper .news-sub-headline img {
 }
 
 main .news-main-wrapper .news-sub-headline .news-flex-item article p {
-    font-size: 0.85rem;
+    font-size: 1rem;
 }
 
 main .news-main-wrapper .news-sub-headline .news-flex-item .news-entry-text {
@@ -241,7 +241,7 @@ main .news-main-wrapper .news-sub-headline .news-flex-item .news-entry-text p {
 }
 
 main .news-main-wrapper .news-sub-headline .news-flex-item .news-main-text {
-    width: 60vw;
+    width: 68vw;
     margin: 0 auto;
 }
 
@@ -251,44 +251,7 @@ main .news-main-wrapper .news-sub-headline .news-flex-item .news-main-text p {
 
 /* appeal */
 main .news-main-wrapper .news-appeal-wrapper {
-    margin-top: 20vw;
-}
-
-main .news-main-wrapper .news-appeal-wrapper .news-appeal-headline {
-    width: 100vw;
-    margin: 5vw auto 2vw;
-    text-align: center;
-}
-
-main .news-main-wrapper .news-appeal-wrapper .news-appeal-headline>p {
-    font-size: 2.1rem;
-    text-align: center;
-    line-height: 1.5em;
-}
-
-main .news-main-wrapper .news-appeal-wrapper .news-appeal-headline>img {
-    width: 100%;
-    margin: 2vw auto;
-    font-size: 1.2rem;
-}
-
-main .news-main-wrapper .news-appeal-wrapper .news-appeal-headline .head_button {
-    width: 85vw;
-    margin: 5vw auto 2vw;
-}
-
-main .news-main-wrapper .news-appeal-wrapper .news-appeal-headline .head_button>img {
-    width: 100vw;
-}
-
-main .news-main-wrapper .news-appeal-wrapper .news-appeal-headline .head_button h2 {
-    text-align: center;
-}
-
-main .news-main-wrapper .news-appeal-wrapper .news-appeal-headline .head_button article {
-    width: 100%;
-    margin: 2vw auto;
-    font-size: 1.2rem;
+    margin-top: 10vw;
 }
 
 main .news-main-wrapper .news-appeal-wrapper .news-product-headline {
@@ -334,7 +297,7 @@ main .news-main-wrapper .news-appeal-wrapper .news-product-headline .news-flex-i
 }
 
 main .news-main-wrapper .news-appeal-wrapper .news-product-headline .news-flex-item article {
-    width: 95%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -352,6 +315,43 @@ main .news-main-wrapper .news-appeal-wrapper .news-product-headline .news-flex-i
     font-size: 0.95rem;
     line-height: 1.7em;
     text-align: center;
+}
+
+main .news-appeal-headline {
+    width: 100vw;
+    margin: 5vw auto 2vw;
+    text-align: center;
+}
+
+main .news-appeal-headline>p {
+    font-size: 2.1rem;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+main .news-appeal-headline>img {
+    width: 100%;
+    margin: 2vw auto;
+    font-size: 1.2rem;
+}
+
+main .news-appeal-headline .head_button {
+    width: 85vw;
+    margin: 5vw auto 2vw;
+}
+
+main .news-appeal-headline .head_button>img {
+    width: 100vw;
+}
+
+main .news-appeal-headline .head_button h2 {
+    text-align: center;
+}
+
+main .news-appeal-headline .head_button article {
+    width: 100%;
+    margin: 2vw auto;
+    font-size: 1.2rem;
 }
 
 main .appeal-info {
@@ -716,43 +716,6 @@ footer .footer-logo img {
         margin-top: 50px;
     }
 
-    main .news-main-wrapper .news-appeal-wrapper .news-appeal-headline {
-        width: 100%;
-        margin: 10px auto 5px;
-        text-align: center;
-    }
-
-    main .news-main-wrapper .news-appeal-wrapper .news-appeal-headline>p {
-        font-size: 3rem;
-        text-align: center;
-        line-height: 1.5em;
-    }
-
-    main .news-main-wrapper .news-appeal-wrapper .news-appeal-headline>img {
-        width: 100%;
-        margin: 10px auto;
-        font-size: 1.2rem;
-    }
-
-    main .news-main-wrapper .news-appeal-wrapper .news-appeal-headline .head_button {
-        width: 85%;
-        margin: 10px auto 5px;
-    }
-
-    main .news-main-wrapper .news-appeal-wrapper .news-appeal-headline .head_button>img {
-        width: 100%;
-    }
-
-    main .news-main-wrapper .news-appeal-wrapper .news-appeal-headline .head_button h2 {
-        text-align: center;
-    }
-
-    main .news-main-wrapper .news-appeal-wrapper .news-appeal-headline .head_button article {
-        width: 100%;
-        margin: 5px auto;
-        font-size: 1.2rem;
-    }
-
     main .news-main-wrapper .news-appeal-wrapper .news-product-headline {
         background-image: url("../img/background03.jpg");
         background-color: #fff;
@@ -822,6 +785,43 @@ footer .footer-logo img {
         font-size: 1.2rem;
         line-height: 1.7em;
         text-align: center;
+    }
+
+    main .news-appeal-headline {
+        width: 100%;
+        margin: 10px auto 5px;
+        text-align: center;
+    }
+
+    main .news-appeal-headline>p {
+        font-size: 3rem;
+        text-align: center;
+        line-height: 1.5em;
+    }
+
+    main .news-appeal-headline>img {
+        width: 100%;
+        margin: 10px auto;
+        font-size: 1.2rem;
+    }
+
+    main .news-appeal-headline .head_button {
+        width: 85%;
+        margin: 10px auto 5px;
+    }
+
+    main .news-appeal-headline .head_button>img {
+        width: 100%;
+    }
+
+    main .news-appeal-headline .head_button h2 {
+        text-align: center;
+    }
+
+    main .news-appeal-headline .head_button article {
+        width: 100%;
+        margin: 5px auto;
+        font-size: 1.2rem;
     }
 
     main .appeal-info {

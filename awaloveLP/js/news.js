@@ -7,9 +7,6 @@
 "use strict";
 
 $(function () {
-    // 書き換え
-    $("#toplink").attr("href", "https://ebisu.love/202411/?code=" + getQuery().toString());
-    $("#awalove").attr("href", "https://ebisu.love/202411/?code=" + getQuery().toString());
     // トグル用フラグ
     let menuOpenFlg = false;
     // トグル用フラグ
@@ -57,7 +54,6 @@ $(function () {
     $(".menuarea .batsu").on("click", function () {
         // トグル
         //menuFlg = !menuFlg;
-
         // メニューを非表示
         $(".menuarea").addClass("display-none");
     });
@@ -92,8 +88,3 @@ $(function () {
     });
 });
 
-// クエリ取得
-function getQuery() {
-    const url = new URL(window.location.href);
-    return url.searchParams.get('code');
-}
